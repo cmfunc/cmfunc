@@ -1,5 +1,32 @@
 ### Hi there 👋
 
+学好编程的四个方面：语言、算法和数据结构、系统调用和设计；
+
+参考资料：官方文档、经典书籍；
+
+### 近期学习内容
+
+- [ ] 服务发现、服务隔离、链路追踪
+- [ ] MongoDB数据模型、索引结构
+- [ ] MySQL数据模型和索引结构
+- [ ] LVS
+- [ ] 四层负载均衡、TCP负债均衡
+- [ ] Service mesh
+- [ ] HTTP、TCP、UDP
+- [ ] Redis进阶
+- [ ] Google SRE
+- [ ] cookie、session、jwt
+- [ ] 多级缓存
+- [ ] Linux系统开发go中的epoll；
+- [ ] 用纸和笔画一些技术图；
+
+### 抑郁
+
+长期压抑、恐惧导致排他；
+
+智商：思考方式要回归理性（数据决策、避免感性判断）
+
+
 <!--
 **azi-v/azi-v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
