@@ -27,6 +27,21 @@
 智商：思考方式要回归理性（数据决策、避免感性判断）
 
 
+### 面试
+HR 关 注 什 么 ？ 
+有 好 
+奇 心 
+心 态 
+积 极 
+优 秀 
+延 迟 满 
+足 感 
+潜 力 
+有 判 
+断 力 
+不 甘 于 
+平 庸 
+
 <!--
 **azi-v/azi-v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
