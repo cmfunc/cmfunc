@@ -1,8 +1,10 @@
-### Hi there 👋
+# Hi there 👋
 
 学好编程的四个方面：语言、算法和数据结构、系统调用和设计；
 
 参考资料：官方文档、经典书籍；
+
+[📒笔记所在位置](https://github.com/azi-v/azi-v)
 
 <!--
 **azi-v/azi-v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
