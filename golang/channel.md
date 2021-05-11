@@ -15,3 +15,30 @@ channel引发内存泄漏
 程序运行过程中，对于一个channel，没有任何goroutine引用后，gc会对其进行回收操作，不会引起内存泄漏。
 
 Channel发送和接收元素的本质：“值的拷贝”，从sender goroutine的栈到chan buf，还是chan buf到recevier goroutine，或者直接从sender goroutine 到recevier goroutine。
+
+带缓冲的channel，for range带缓冲的channel，程序会一直阻塞在for range循环中，无法退出，必须对channel进行close()，才能退出；
+
+对closed的chan发送数据会panic；
+重复关闭chan会panic；
+
+Channels act as first-in-first-out queues.
+if one goroutine sends values on a channel and a second goroutine receives them, the values are received in the order sent.
+
+Sending to or closing a closed channel causes a run-time panic. Closing the nil channel also causes a run-time panic. 
+
+channel实现协程池
+```go
+var limit = make(chan int, 3)
+
+func main() {
+	for _, w := range work {
+		go func(w func()) {
+			limit <- 1
+			w()
+			<-limit
+		}(w)
+	}
+	select{}
+}
+```
+nil的channel永久阻塞
