@@ -1,22 +1,14 @@
 # Hi there 👋
 
-学好编程的四个方面：语言、算法和数据结构、系统调用和设计；
+## Four Base of Develop Program :
+1. program language;
+2. algothrim&datastruct;
+3. system call;
+4. program design;
 
-参考资料：官方文档、经典书籍；
+## reference material
+1. official docs;
+2. classic books;
 
-[📒笔记所在位置](https://github.com/azi-v/azi-v)
-
-<!--
-**azi-v/azi-v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📒 [my note address](https://github.com/azi-v/azi-v)
+- 🌱 I'm currently learning rbac,abac,acl and casbin;
