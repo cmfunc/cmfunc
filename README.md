@@ -13,4 +13,4 @@
 2. 经典书籍(classic books);
 
 - 📒 [我的笔记地址(my note address)](https://github.com/azi-v/azi-v)
-- 🌱 我正在学习权限管理(I'm currently learning rbac,abac,acl and casbin);
+- 🌱 我正在学习权限管理(I'm currently learning rbac,abac,acl and casbin、ladon、opa、keto);
