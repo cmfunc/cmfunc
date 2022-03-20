@@ -12,7 +12,7 @@
 1. 官方文档(official docs);
 2. 经典书籍(classic books);
 
-## 最近在做的一些事情
+## 最近在做的事情
 
 - ⛴ [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
 - 📌 学习了一段时间权限管理(rbac,abac,acl and casbin、ladon、opa、keto);
