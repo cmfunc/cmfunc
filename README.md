@@ -14,6 +14,6 @@
 
 ## 最近在做的一些事情
 
-- 📒 [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
+- ⛴ [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
 - 📌 学习了一段时间权限管理(rbac,abac,acl and casbin、ladon、opa、keto);
 - 🚚 最近在复习和加固（网络协议、Redis、MySQL、算法、数据结构、MongoDB、Golang）;
