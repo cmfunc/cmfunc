@@ -1,3 +1,5 @@
+# channel
+
  1. 在不改变channel自身状态的情况下，无法获知一个channel是否关闭；
  2. 关闭一个closed channel会导致panic。所以，如果关闭channel的一方在不知道channel是否处于关闭状态时就去贸然关闭channel是很危险的。
  3. 向一个closed channel发送数据会导致panic。向channel发送数据的一方不知道channel是否处于关闭状态时就贸然向channel发送数据是很危险的。
@@ -5,6 +7,7 @@
 不要从receiver侧关闭channel，不要在有多个sender时，关闭channel；
 
 关闭channel的方式：
+
  1. Defer + recover
  2. sync.Once保证只关闭一次
 
