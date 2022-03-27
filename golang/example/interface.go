@@ -1,6 +1,8 @@
 package example
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type People interface {
 	Speak(string) string
@@ -17,6 +19,7 @@ func (stu *Student) Speak(think string) (talk string) {
 	return
 }
 
-func PrintStarInterface(i *interface{})  {
+func PrintStarInterface(i *interface{}) {
+
 	fmt.Printf("%#v", i)
 }
