@@ -1,5 +1,9 @@
 # 看这里 Hi there 👋
 
+## jipeng(激碰 基友社交APP)
+
+[jipeng's project document(激碰APP需求文档) ][https://github.com/cmfunc/cmfunc/blob/master/jipeng/project.md]
+
 ## 程序开发的四个基础(Four Base of Develop Program)
 
 1. 编程语言(program language);
