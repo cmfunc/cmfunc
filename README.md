@@ -21,3 +21,4 @@
 - ⛴ [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
 - 📌 学习了一段时间权限管理(rbac,abac,acl and casbin、ladon、opa、keto);
 - 🚚 最近在复习和加固（网络协议、Redis、MySQL、算法、数据结构、MongoDB、Golang）;
+- 📱 [最近开发了一个激碰微信小程序，因为没有资金运营，暂停了](https://github.com/cmfunc/cmfunc/blob/master/jipeng/project.md)；
