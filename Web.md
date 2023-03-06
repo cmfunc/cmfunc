@@ -36,7 +36,6 @@ Cookie属性：
 
 历史上表单(form)一直可以发出跨域请求；
 
-
 ## JWT
 
 JSON Web Token
@@ -44,6 +43,7 @@ jwt中可以解码出user_id；
 <http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html>
 
 跨域认证解决方案；用户认证；
+
  1. 用户向服务器发送用户名和密码；
  2. 服务器验证通过后，在当前对话（session）里面保存相关数据，比如用户角色、登录时间等等；
  3. 服务器向用户返回一个session_id，写入用户的Cookie。
@@ -51,7 +51,7 @@ jwt中可以解码出user_id；
  5. 服务器收到session_id，找到前期保存的数据，由此得知用户的身份。
 
 JWT：服务器不保存数据，所有数据都保存在客户端，每次请求都发回服务器。
- 
+
 JWT原理
 服务认证以后，生成一个JSON对象，发回给用户；
 {
@@ -92,6 +92,7 @@ JWT默认是不加密的，任何人都可以读到，所以不能把秘密信�
 Payload对象也要使用Base64URL算法转成字符串。
 
 Signature部分是两部分的签名，防止数据篡改。
+
  1. 指定一个密钥（secret）。这个密钥只有服务器才知道，不能泄露给用户。
  2. 使用Header里的指定签名算法（默认 HMAC SHA256），按照公式进行签名
  HMACSHA256(
@@ -106,6 +107,7 @@ JWT使用方式
 之后，客户端每次都要带上JWT。HTTP请求头的Authorization字段Bearer<token>
 
 JWT特点
+
  1. JWT默认不加密，生成原始token以后，可以赢秘钥再加密一次；
  2. JWT不加密的情况下，不能将秘密数据写入JWT；
  3. JWT不仅可用于认证，也可用于交换数据，有效使用JWT，可减少服务器查询数据库次数；
