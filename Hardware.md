@@ -1,6 +1,8 @@
-# 计算机同步原语
+# 硬件
 
-## CAS
+## 计算机同步原语
+
+### CAS
 
 ```go
 
@@ -17,7 +19,7 @@ func transferCas(balance *int32, amount int, done chan bool) {
 
 ```
 
-## FAA
+### FAA
 
 ```go
 
