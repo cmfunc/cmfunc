@@ -24,7 +24,6 @@ TCP连接上，传输数据的基本形式是二进制流（一段一段的1和0
 
 将结构化数据转化成字节流或二进制流
 
-
 ## TCP
 
 报文、帧、数据包等的区别
@@ -59,6 +58,6 @@ IP 负责将包发送至接受者。
 
 SYN攻击：
 在三次握手过程中，Server发送SYN-ACK之后，收到Client的ACK之前的TCP连接称为半连接（half-open connect），此时Server处于SYN_RCVD状态，当收到ACK后，Server转入ESTABLISHED状态。SYN攻击就是Client在短时间内伪造大量不存在的IP地址，并向Server不断地发送SYN包，Server回复确认包，并等待Client的确认，由于源地址是不存在的，因此，Server需要不断重发直至超时，这些伪造的SYN包将产时间占用未连接队列，导致正常的SYN请求因为队列满而被丢弃，从而引起网络堵塞甚至系统瘫痪。
-#netstat -nap | grep SYN_RECV
+# netstat -nap | grep SYN_RECV
 
 TCP连接是全双工的，每个方向上的连接都必须单独进行关闭。
