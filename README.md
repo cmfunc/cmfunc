@@ -3,6 +3,8 @@
 ## jipeng(激碰 基友社交APP)
 
 [jipeng's project document(激碰APP需求文档)](https://github.com/cmfunc/jipeng/blob/main/README.md)
+[激碰后端api代码](https://github.com/cmfunc/jipeng)
+[激碰前端小程序代码](https://github.com/cmfunc/jipengFrontEnd)
 
 ## 我对写代码的看法
 
