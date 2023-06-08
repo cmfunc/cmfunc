@@ -34,3 +34,4 @@
 - 🎋 2023-04-04 [封装了一个本地的消息队列bamboo](https://github.com/cmfunc/go-toolbox/tree/main/bamboo)
 - 🥜 2023-04-13 [封装了一个拼装SQL的库](https://github.com/cmfunc/go-toolbox/tree/main/cement)
 - 🐗 2023-04-21 [Golang开发工具包](https://github.com/cmfunc/go-toolbox)
+- 🪣 2023-06-08 [Golang消息队列](https://github.com/cmfunc/tube)
