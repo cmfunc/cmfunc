@@ -1,20 +1,20 @@
 # 看这里 Hi there 👋
 
-写了七年代码，对开发工作一点片面的看法:
+> 写了七年代码，对开发工作一点片面的看法:
 
-> 程序开发的四个基础(Four Base of Develop Program)
+>> 程序开发的四个基础(Four Base of Develop Program)
 
 1. 编程语言(program language);
 2. 算法与数据结构(algothrim&datastruct);
 3. 系统调用(system call);
 4. 程序设计(program design);
 
-> 参考材料(reference material)
+>> 参考材料(reference material)
 
 1. 官方文档(official docs);
 2. 经典书籍(classic books);
 
-> 自己开发的一个jipeng(激碰 基友社交小程序)
+>> 自己开发的一个jipeng(激碰 基友社交小程序)
 
 1. [jipeng's project document(激碰APP需求文档)](https://github.com/cmfunc/jipeng/blob/main/README.md)
 
