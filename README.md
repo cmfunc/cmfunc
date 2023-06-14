@@ -1,6 +1,6 @@
 ### 看这里 Hi there 👋
 
-> 写了七年代码，对开发工作一点片面的看法:
+#### 写了七年代码，对开发工作一点片面的看法:
 
 > 程序开发的四个基础(Four Base of Develop Program)
 
@@ -18,7 +18,7 @@
 
 1. [jipeng's project document(激碰APP需求文档)](https://github.com/cmfunc/jipeng/blob/main/README.md)
 
-> 最近在做的事情
+#### 最近在做的事情
 
 - ⛴ [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
 - 📌 权限管理的开源库(rbac,abac,acl and casbin、ladon、opa、keto);
