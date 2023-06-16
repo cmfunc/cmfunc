@@ -1,6 +1,8 @@
 ### 看这里 Hi there 👋
 
-#### 写了七年代码，对开发工作一点片面的看法:
+#### 写了七年代码，对开发工作一点片面的看法
+
+[笔记地址(my note address)](https://github.com/azi-v/azi-v)
 
 > 程序开发的四个基础(Four Base of Develop Program)
 
@@ -20,13 +22,11 @@
 
 #### 最近在做的事情
 
-- ⛴ [我的笔记地址(my note address)](https://github.com/azi-v/azi-v);
-- 📌 权限管理的开源库(rbac,abac,acl and casbin、ladon、opa、keto);
-- 🥤 2023-02-16 [最近开发了一个激碰微信小程序，因为没有资金运营，暂停了](https://github.com/cmfunc/cmfunc/blob/master/jipeng/project.md)；
+- ⛴ 2023-02-16 [最近开发了一个激碰微信小程序，因为没有资金运营，暂停了](https://github.com/cmfunc/cmfunc/blob/master/jipeng/project.md)；
 - 🚚 2023-03-07 [封装了一个自己做web后端开发过程中常使用的代码库](https://github.com/cmfunc/go-toolbox)
 - 📚 2023-03-07 [基于zap封装的日志库，实现了日志自动切割功能](https://github.com/cmfunc/zapper)
 - 📰 2023-04-04 [封装了一个本地的消息队列bamboo](https://github.com/cmfunc/go-toolbox/tree/main/bamboo)
 - 🖊️ 2023-04-13 [封装了一个拼装SQL的库](https://github.com/cmfunc/go-toolbox/tree/main/cement)
 - 📦 2023-04-21 [Golang开发工具包](https://github.com/cmfunc/go-toolbox)
-- 👟 2023-06-08 [Golang消息队列](https://github.com/cmfunc/tube)
+- 📌 2023-06-08 [Golang消息队列](https://github.com/cmfunc/tube)
 - 🌺 2023-06-14 [Golang协程池](https://github.com/cmfunc/async_pool)
