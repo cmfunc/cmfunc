@@ -1,0 +1,150 @@
+/* 引入本地的 TrueType 字体文件 */
+@font-face {
+    font-family: 'YourCustomFont';
+    /* 定义字体名称 */
+    src: url('fonts/FangZhengKaiTiJianTi-1.ttf') format('truetype');
+    /* 指定字体文件路径和格式 */
+    /* 可以添加其他字体属性，如 font-weight、font-style 等 */
+}
+
+@font-face {
+    font-family: 'MaShanZheng';
+    /* 定义字体名称 */
+    src: url('fonts/MaShanZheng-Regular.ttf') format('truetype');
+    /* 指定字体文件路径和格式 */
+    /* 可以添加其他字体属性，如 font-weight、font-style 等 */
+}
+
+@font-face {
+    font-family: 'NotoSansSC';
+    /* 定义字体名称 */
+    src: url('fonts/NotoSansSC-VariableFont_wght.ttf') format('truetype');
+    /* 指定字体文件路径和格式 */
+    /* 可以添加其他字体属性，如 font-weight、font-style 等 */
+}
+
+@font-face {
+    font-family: 'HYKongShanKaiW';
+    /* 定义字体名称 */
+    src: url('fonts/HYKongShanKaiW.ttf') format('truetype');
+    /* 指定字体文件路径和格式 */
+    /* 可以添加其他字体属性，如 font-weight、font-style 等 */
+}
+
+/* Markdown 背景样式 */
+body {
+    color: #000000;
+    /* 设置字体颜色为墨色 */
+    background: url('background.svg'), linear-gradient(to bottom right, #D4D796, #88AD8C, #D8DBBD, #D4D796, #88AD8C, #D8DBBD, #D4D796);
+    /* 设置渐变色和背景图像 */
+    background-size: cover;
+    /* 背景图片填充整个容器 */
+    background-repeat: repeat;
+    /* 背景图片重复 */
+    background-size: 50%;
+    /* 将背景图片大小缩小为原来的一半 */
+    font-family: 'HYKongShanKaiW', Arial, sans-serif;
+    /* 使用自定义字体，如果不存在则使用 Arial 字体，最后使用系统默认 sans-serif 字体作为备选 */
+}
+
+/* Markdown 背景样式 */
+.markdown {
+    background: url('background.svg');
+    /* 设置背景图像 */
+    background-size: cover;
+    /* 背景图片填充整个容器 */
+    background-repeat: repeat;
+    /* 背景图片重复 */
+    background-size: 50%;
+    /* 将背景图片大小缩小为原来的一半 */
+}
+
+/* Markdown 段落样式 */
+p {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* 使用半透明的白色作为背景 */
+    border-radius: 10px;
+    /* 设置圆角半径为20px */
+    padding: 20px;
+    /* 设置内边距为20px */
+    backdrop-filter: blur(10px);
+    /* 添加模糊效果，值可以根据需要调整 */
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    /* 使用透明的黑色边框 */
+
+}
+
+/* Markdown 段落标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    /* 设置相对定位 */
+    display: inline;
+    /* 使标题行内显示 */
+    margin: 0px 0;
+    /* 设置外边距为20px */
+    padding: 0px 0px;
+    /* 设置内边距为10px顶部/底部，20px左侧/右侧 */
+    background-color: rgba(255, 255, 255, 0);
+    /* 设置半透明的背景色 */
+    color: #ffffff;
+    /* 设置文字颜色为白色 */
+    text-shadow:
+        -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000,
+        0px 0px 2px #ffffff;
+    ;
+    /* 添加黑色描边效果 */
+    border-radius: 4px;
+    /* 添加超小的圆角矩形 */
+    font-family: 'NotoSansSC', Arial, sans-serif;
+    /* 使用自定义字体，如果不存在则使用 Arial 字体，最后使用系统默认 sans-serif 字体作为备选 */
+}
+
+table {
+    padding: 0;
+    word-break: initial;
+}
+
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(1n),
+thead {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    /* 添加模糊效果，值可以根据需要调整 */
+}
+
+table th {
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
