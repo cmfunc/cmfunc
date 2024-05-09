@@ -2,6 +2,8 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cmfunc)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cmfunc)](https://github.com/anuraghazra/github-readme-stats)
+
 #### 开发
 
 [笔记地址(my note address)](https://github.com/azi-v/azi-v)
