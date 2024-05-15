@@ -24,6 +24,16 @@
 
 1. [jipeng's project document(激碰APP需求文档)](https://github.com/cmfunc/jipeng/blob/main/README.md)
 
+### 算法学习
+
+#### 机器学习算法
+
+#### transformer
+
+#### 矩阵运算
+
+#### 注意力机制
+
 ## 编码
 
 - ⛴ 2023-02-16 [最近开发了一个激碰微信小程序，因为没有资金运营，暂停了](https://github.com/cmfunc/cmfunc/blob/master/jipeng/project.md)；
